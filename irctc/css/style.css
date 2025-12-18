@@ -1,0 +1,150 @@
+body{
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.nav-bar ul{
+  background-color: rgba(255, 255, 255, 0.377);
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  
+}
+
+.nav-bar li{
+  display: block;
+  padding: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+}
+
+.nav-bar li:hover{
+  background-color: white;
+}
+
+.navs{
+  display: flex;
+  margin-left: 100px;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.377);
+  width: 600px;
+  height: 500px;
+  margin-left: 120px;
+  margin-top: 220px;
+  border-radius: 20px;
+}
+
+.pnr a{
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 52px;
+  padding-right: 88px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  width: 100px;
+}
+
+.pnr a:hover{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pnr-icon{
+  font-size: 20px;
+  margin-left: -40px;
+}
+
+.heading1{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.fa-location-arrow{
+  margin-top: 20px;
+}
+
+.inputs1{
+  margin-top: -100px;
+  width: 230px;
+  height: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-left: 12px;
+  background-color: rgba(11, 24, 52, 0.425);
+  border: none;
+  border-radius: 10px;
+}
+
+.inputs1::placeholder{
+  color: white;
+}
+
+.inputs2{
+  margin-top: -100px;
+  width: 230px;
+  height: 32px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-left: 12px;
+  background-color: rgba(1, 14, 40, 0.37);
+  border: none;
+  border-radius: 10px;
+}
+
+.date1{
+  margin-top: 22px;
+  margin-left: 120px;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checks{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 20px;
+}
+
+.buttons{
+  margin-left: 105px;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.buttons button{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 20px;
+  background-color: rgba(130, 33, 33, 0.726);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.buttons button:hover{
+  background-color: rgba(130, 33, 33, 0.961);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h1{
+  margin-left: 1000px;
+  margin-top: -590px;
+  font-size: 40px;
+}
+
+h3{
+  margin-left: 1070px;
+  margin-top: -20px;
+  font-size: 20px;
+  font-weight: normal;
+}
