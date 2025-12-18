@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroStore</title>
+  <link rel="icon" href="images/logo.webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: black; position: fixed; z-index: 99; width: 100%; ">
+    <div class="container-fluid"
+      style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+      <a class="navbar-brand" href="index.html"
+        style="font-weight: bold; padding: 15px; padding-left: 50px; font-size: 25px; color: white;">ElectroStore.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navs" style="margin-left: 150px;">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About Us</a>
+          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link" style="font-weight: bold; color: white; text-decoration: underline;" href="offers.html">Offers</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </div>
+        <a href="#" style="margin-left: 60px;"><i class="bi bi-cart"></i></a>
+        <form class="d-flex" role="search" style="margin-left: 20px;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- end of navbar -->
+
+  <div class="container-fluid offers-background" style="text-align: center;">
+  </div>
+
+  
+  <div class="container text-center mt-5 mb-5"
+    style="color: black; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <h1 class="mb-5" style="font-size: 50px;">our <span
+        style="font-weight: bold; color: rgb(255, 204, 0); text-shadow: 1px 1px 1px black;">OFFERS</span> !</h1>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/offer-1.png" class="d-block" alt="..." style="width: 100%;">
+          <div class=" offer-caption1 d-none d-md-block">
+            <h5 class="offer-heading1">NEW YEAR <br> <span style="color: red; font-size: 130px; text-shadow: -8px 5px 10px rgb(0, 0, 0);">BLAST</span></h5>
+            <h6 class="offer-heading1" style="font-size: 30px; margin-top: -10px;">UPTO <br> <span style="color: yellow; font-size: 100px;">50% OFF</span>  <br> ON TOP ELECTRONICS</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/offer-2.png" class="d-block" alt="..." style="width: 100%;">
+          <div class=" offer-caption2 d-none d-md-block">
+            <h5 class="offer-heading2">GADGET COMBO <br> <span style="color: rgb(0, 89, 255); font-size: 130px; text-shadow: -8px 5px 10px rgb(0, 0, 0);">DEAL</span></h5>
+            <h6 class="offer-heading2" style="font-size: 30px;">Buy Any Smartphone + Get Wireless Earbuds <br> at <br> <span style="color: rgb(255, 1, 1); font-size: 80px;">60% OFF</span></h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/offer-3.png" class="d-block" alt="..." style="width: 100%;">
+          <div class=" offer-caption3 d-none d-md-block">
+            <h5 class="offer-heading3">EXCHANGE <span style="color: red; text-shadow: 2px 2px 5px rgb(50, 13, 13);">&</span> SAVE BIG</h5>
+            <h6 class="offer-heading3" style="font-size: 30px;">Swap <span style="color: yellow; font-size: 40px; text-shadow: -2px 2px 5px rgb(255, 0, 0);">OLD</span>, grab <span style="color: blue; font-size: 40px; text-shadow: -2px 2px 5px rgb(0, 0, 0);">NEW</span></h6>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

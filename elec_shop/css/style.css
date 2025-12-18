@@ -1,0 +1,236 @@
+.navs a{
+  font-size: 18px;
+  display: block;
+  margin-right: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.navs a:hover{
+  background-color: rgba(34, 34, 34, 0.744);
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+.bi-cart{
+  font-size: 30px;
+  color: white;
+}
+
+.bi-cart:hover{
+  color: rgb(94, 8, 8);
+}
+
+.home-background{
+  background-image: url(../images/home-bg.png);
+  height: 872px;
+  background-position: center;
+  position: relative;
+}
+
+.home-background::before,.product-background::before,
+.offers-background::before,.about-background::before,
+.contact-background::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  
+}
+
+.banner-head{
+  margin: auto;
+  padding-top: 270px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+  position: relative;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(5, 5, 5);
+}
+
+.shop-now{
+  position: relative;
+  z-index: 1;
+  color: black;
+  background-color: rgb(229, 249, 1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: transform 0.4s ease;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.shop-now:hover{
+  box-shadow: 2px 1px 5px 2px rgb(177, 232, 10);
+  background-color: rgb(229, 249, 1);
+  color: black;
+  transform: scale(1.1);
+}
+
+/* PRODUCT PAGE  */
+
+
+.product-background{
+  background-image: url(../images/products-bg.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.product-card{
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover{
+  box-shadow: 2px 2px 5px grey;
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.buy-now{
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.buy-now:hover{
+  border: solid 1px brown;
+  color: black;
+}
+
+/* Offers Page */
+
+.offers-background{
+  background-image: url(../images/offers-bg.png);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.offer-caption1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: -420px;
+  margin-top: -680px;
+  color: white;
+  margin-bottom: 200px;
+}
+
+.offer-heading1{
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgb(255, 0, 0);
+}
+
+.offer-caption2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: -680px;
+  color: rgb(255, 234, 1);
+  margin-bottom: 200px;
+}
+
+.offer-heading2{
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -3px 2px 2px rgb(0, 0, 0);
+}
+
+.offer-caption3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: -680px;
+  color: white;
+  margin-bottom: 500px;
+}
+
+.offer-heading3{
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px red;
+}
+
+/* about */
+
+.about-background{
+  background-image: url(../images/about-bg.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.features{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.features li{
+  list-style-type: circle;
+  margin-bottom: 10px;
+}
+
+/* contact */
+
+.contact-background{
+  background-image: url(../images/contact-bg.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-input{
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+  border: solid 1px rgb(177, 1, 1);
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.contact-input::placeholder{
+  color: rgba(86, 0, 0, 0.861);
+  font-size: 14px;
+}
+
+.contact-icons i{
+  font-size: 20px;
+  color: rgba(86, 0, 0, 0.861);
+}
+
+.btn-contact{
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+.btn-contact:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: brown;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
